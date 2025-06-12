@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code";
+  background-color: royalblue;
+}
+
+input {
+  position: relative;
+  /* top: 200px; */
+  /* margin-left: 20px; */
+  padding: 15px;
+  top: 30px;
+  border: none;
+  outline: none;
+  width: 400px;
+}
+
+label {
+  position: relative;
+  top: 200px;
+  padding: 10px;
+  display: grid;
+  outline: none;
+  border: none;
+}
+
+button {
+  padding: 5px;
+  position: relative;
+  top: 250px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: grid;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  /* display: flex; */
+}
+
+div {
+  justify-content: space-around;
+  display: grid;
+  place-items: center;
+}
