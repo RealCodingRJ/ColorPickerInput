@@ -21,7 +21,12 @@ button.onclick = () => {
 
   const color = document.getElementById("color");
 
-  if (color) {
+  if (color && value == "") {
+    document.body.style.backgroundColor = "#" + NewColor + NewColor + NewColor;
+    color.textContent = "#" + NewColor + NewColor + NewColor;
+    // document.body.style.backgroundColor = "#fff";
+  } else {
+    document.body.style.backgroundColor = "#fff";
     color.textContent = "#" + NewColor + NewColor + NewColor;
   }
 };
